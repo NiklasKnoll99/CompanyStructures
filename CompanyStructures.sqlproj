@@ -67,5 +67,9 @@
     <Build Include="Table\Manager.sql" />
     <Build Include="Table\Department.sql" />
     <Build Include="View\CompanyView.sql" />
+    <Build Include="View\ManagerView.sql" />
+    <Build Include="View\AddressView.sql" />
+    <Build Include="View\DepartmentView.sql" />
+    <Build Include="View\EmployeeView.sql" />
   </ItemGroup>
 </Project>
