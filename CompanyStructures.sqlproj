@@ -72,5 +72,13 @@
     <Build Include="table\City.sql" />
     <Build Include="table\Gender.sql" />
     <Build Include="table\Province.sql" />
+    <Build Include="view\viAddress.sql" />
+    <Build Include="view\viCity.sql" />
+    <Build Include="view\viCompany.sql" />
+    <Build Include="view\viDepartment.sql" />
+    <Build Include="view\viEmployee.sql" />
+    <Build Include="view\viEmploymentTime.sql" />
+    <Build Include="view\viGender.sql" />
+    <Build Include="view\viProvince.sql" />
   </ItemGroup>
 </Project>
