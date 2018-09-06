@@ -4,7 +4,7 @@
 	[FirstName] NVARCHAR(128) NOT NULL,
 	[LastName] NVARCHAR(128) NOT NULL,
 	[Birthday] DATE NOT NULL,
-	[Gender] TINYINT NOT NULL,
+	[Gender] TINYINT NOT NULL REFERENCES Gender(Id),
 	[EmploymentTimeId] INT REFERENCES EmploymentTime(Id),
 	[Pay] MONEY,
 	[CreationTime] DATETIME2(7) NOT NULL DEFAULT GetDate(),

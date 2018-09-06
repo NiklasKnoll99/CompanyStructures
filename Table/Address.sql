@@ -5,9 +5,7 @@
 	[EmployeeId] INT DEFAULT NULL REFERENCES Employee(Id),
 	[Street] NVARCHAR(128) NOT NULL,
 	[HouseNumber] SMALLINT NOT NULL,
-	[City] NVARCHAR(128) NOT NULL,
-	[Province] NVARCHAR(128) NOT NULL,
-	[Country] NVARCHAR(128) NOT NULL,
+	[CityId] NVARCHAR(64) NOT NULL REFERENCES City(PostCode),
 	[CreationTime] DATETIME2(7) NOT NULL DEFAULT GetDate(),
 	[DeleteTime] DATETIME2(7)
 )

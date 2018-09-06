@@ -68,5 +68,9 @@
     <Build Include="Table\Department2Address.sql" />
     <Build Include="Table\Manager.sql" />
     <Build Include="Table\EmploymentTime.sql" />
+    <Build Include="table\Employee2Department.sql" />
+    <Build Include="table\City.sql" />
+    <Build Include="table\Gender.sql" />
+    <Build Include="table\Province.sql" />
   </ItemGroup>
 </Project>

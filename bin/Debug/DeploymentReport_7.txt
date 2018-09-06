@@ -1,0 +1,44 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[City]
+       [dbo].[Gender]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[dbo].[Address].[Country]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Address].[Province]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[City].[ProvinceId]" in der Tabelle "[dbo].[City]" muss hinzugefügt werden, besitzt jedoch keinen
+         Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um
+         dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte
+         zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+       Der Typ für Spalte "Id" in Tabelle "[dbo].[Gender]" ist derzeit " INT NOT NULL", wird jedoch in " TINYINT NOT NULL"
+         geändert. Es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[City] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Gender] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+     Ändern
+       [dbo].[Address] (Tabelle)
+     Tabellenneuerstellung
+       [dbo].[City] (Tabelle)
+       [dbo].[Gender] (Tabelle)
+     Erstellen
+       [dbo].[Province] (Tabelle)
+       DEFAULT-Einschränkung: unbenannte Einschränkungen auf [dbo].[Province] (DEFAULT-Einschränkung)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[City] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+
+Die Spalte "[dbo].[Address].[Country]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Address].[Province]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[City].[ProvinceId]" in der Tabelle "[dbo].[City]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ für Spalte "Id" in Tabelle "[dbo].[Gender]" ist derzeit " INT NOT NULL", wird jedoch in " TINYINT NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+
