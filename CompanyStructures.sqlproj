@@ -64,12 +64,11 @@
     <Build Include="Table\Company.sql" />
     <Build Include="Table\Address.sql" />
     <Build Include="Table\Employee.sql" />
-    <Build Include="Table\Manager.sql" />
     <Build Include="Table\Department.sql" />
-    <Build Include="View\CompanyView.sql" />
-    <Build Include="View\ManagerView.sql" />
-    <Build Include="View\AddressView.sql" />
-    <Build Include="View\DepartmentView.sql" />
-    <Build Include="View\EmployeeView.sql" />
+    <Build Include="View\viCompany.sql" />
+    <Build Include="View\viAddress.sql" />
+    <Build Include="View\viDepartment.sql" />
+    <Build Include="View\viEmployee.sql" />
+    <Build Include="Table\Department2Address.sql" />
   </ItemGroup>
 </Project>
