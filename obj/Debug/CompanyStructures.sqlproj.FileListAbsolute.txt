@@ -2,9 +2,5 @@ C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\bin\Debu
 C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\bin\Debug\CompanyStructures.dll
 C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\bin\Debug\CompanyStructures.pdb
 C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\CompanyStructures.sqlprojAssemblyReference.cache
-C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\Model.xml
-C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\refactor.xml
-C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\postdeploy.sql
-C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\predeploy.sql
 C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\CompanyStructures.dll
 C:\Dev\Projects\Databasedevelopment\CompanyStructures\CompanyStructures\obj\Debug\CompanyStructures.pdb
