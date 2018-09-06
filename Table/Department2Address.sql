@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Department2Company]
+﻿CREATE TABLE [dbo].[Department2Address]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
 	[AddressId] INT NOT NULL REFERENCES Address(Id),

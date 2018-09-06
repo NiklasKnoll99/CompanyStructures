@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[ManagerToDepartment]
+﻿CREATE TABLE [dbo].[Manager]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
 	[EmployeeId] INT NOT NULL REFERENCES Employee(Id),

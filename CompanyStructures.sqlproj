@@ -80,5 +80,8 @@
     <Build Include="view\viEmploymentTime.sql" />
     <Build Include="view\viGender.sql" />
     <Build Include="view\viProvince.sql" />
+    <Build Include="view\viManager.sql" />
+    <Build Include="view\viDepartment2Address.sql" />
+    <Build Include="view\viEmployee2Department.sql" />
   </ItemGroup>
 </Project>

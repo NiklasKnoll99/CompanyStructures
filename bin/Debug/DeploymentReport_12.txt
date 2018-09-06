@@ -1,0 +1,48 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[City]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ für Spalte "CityId" in Tabelle "[dbo].[Address]" ist derzeit " NVARCHAR (64) NOT NULL", wird jedoch in "
+         NVARCHAR (16) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+       Der Typ für Spalte "PostCode" in Tabelle "[dbo].[City]" ist derzeit " NVARCHAR (64) NOT NULL", wird jedoch in " NVARCHAR
+         (16) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+       Der Typ für Spalte "CompanyName" in Tabelle "[dbo].[Company]" ist derzeit " NVARCHAR (256) NOT NULL", wird jedoch in "
+         NVARCHAR (128) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[City] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[City] (Fremdschlüssel)
+     Ändern
+       [dbo].[Address] (Tabelle)
+       [dbo].[Company] (Tabelle)
+     Tabellenneuerstellung
+       [dbo].[City] (Tabelle)
+     Erstellen
+       [dbo].[Department2Address] (Tabelle)
+       DEFAULT-Einschränkung: unbenannte Einschränkungen auf [dbo].[Department2Address] (DEFAULT-Einschränkung)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       [dbo].[viDepartment2Address] (Sicht)
+       [dbo].[viEmployee2Department] (Sicht)
+       [dbo].[viManager] (Sicht)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[City] (Fremdschlüssel)
+     Aktualisieren
+       [dbo].[viAddress] (Sicht)
+       [dbo].[viCity] (Sicht)
+       [dbo].[viCompany] (Sicht)
+
+Der Typ für Spalte "CityId" in Tabelle "[dbo].[Address]" ist derzeit " NVARCHAR (64) NOT NULL", wird jedoch in " NVARCHAR (16) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Der Typ für Spalte "PostCode" in Tabelle "[dbo].[City]" ist derzeit " NVARCHAR (64) NOT NULL", wird jedoch in " NVARCHAR (16) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Der Typ für Spalte "CompanyName" in Tabelle "[dbo].[Company]" ist derzeit " NVARCHAR (256) NOT NULL", wird jedoch in " NVARCHAR (128) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+
