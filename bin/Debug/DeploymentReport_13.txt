@@ -1,0 +1,24 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ für Spalte "LegalForm" in Tabelle "[dbo].[Company]" ist derzeit " NVARCHAR (64) NOT NULL", wird jedoch in "
+         NVARCHAR (32) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Ändern
+       [dbo].[Company] (Tabelle)
+     Erstellen
+       [dbo].[spInsertOrUpdateCompany] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [dbo].[viCompany] (Sicht)
+
+Der Typ für Spalte "LegalForm" in Tabelle "[dbo].[Company]" ist derzeit " NVARCHAR (64) NOT NULL", wird jedoch in " NVARCHAR (32) NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+

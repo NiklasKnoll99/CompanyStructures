@@ -59,6 +59,7 @@
     <Folder Include="Properties" />
     <Folder Include="table" />
     <Folder Include="view" />
+    <Folder Include="stored procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Company.sql" />
@@ -83,5 +84,6 @@
     <Build Include="view\viManager.sql" />
     <Build Include="view\viDepartment2Address.sql" />
     <Build Include="view\viEmployee2Department.sql" />
+    <Build Include="stored procedures\spCreateOrUpdateCompany.sql" />
   </ItemGroup>
 </Project>
