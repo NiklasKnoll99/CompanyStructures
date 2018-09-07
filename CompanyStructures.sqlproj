@@ -71,7 +71,6 @@
     <Build Include="Table\EmploymentTime.sql" />
     <Build Include="table\Employee2Department.sql" />
     <Build Include="table\City.sql" />
-    <Build Include="table\Gender.sql" />
     <Build Include="table\Province.sql" />
     <Build Include="view\viAddress.sql" />
     <Build Include="view\viCity.sql" />
@@ -79,7 +78,6 @@
     <Build Include="view\viDepartment.sql" />
     <Build Include="view\viEmployee.sql" />
     <Build Include="view\viEmploymentTime.sql" />
-    <Build Include="view\viGender.sql" />
     <Build Include="view\viProvince.sql" />
     <Build Include="view\viManager.sql" />
     <Build Include="view\viDepartment2Address.sql" />

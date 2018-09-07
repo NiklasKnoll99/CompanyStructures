@@ -1,7 +1,0 @@
-﻿CREATE TABLE [dbo].[Gender]
-(
-	[Id] TINYINT NOT NULL PRIMARY KEY,
-	[GenderName] NVARCHAR(32) NOT NULL,
-	[CreationTime] DATETIME2(7) NOT NULL DEFAULT GetDate(),
-	[DeleteTime] DATETIME2(7)
-)
