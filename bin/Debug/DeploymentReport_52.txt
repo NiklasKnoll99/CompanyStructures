@@ -1,0 +1,55 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[Department2Address]
+       [dbo].[Employee]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ für Spalte "EmploymentEnd" in Tabelle "[dbo].[EmploymentTime]" ist derzeit " DATETIME2 (7) NULL", wird jedoch in
+         " DATE NULL" geändert. Es könnte zu einem Datenverlust kommen.
+       Der Typ für Spalte "EmploymentStart" in Tabelle "[dbo].[EmploymentTime]" ist derzeit " DATETIME2 (7) NOT NULL", wird
+         jedoch in " DATE NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Department2Address] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Employee] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Manager2Department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Manager] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[ManagerToDepartment] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+     Tabellenneuerstellung
+       [dbo].[Department2Address] (Tabelle)
+       [dbo].[Employee] (Tabelle)
+     Ändern
+       [dbo].[EmploymentTime] (Tabelle)
+       [dbo].[viEmployee] (Sicht)
+       [dbo].[viAddress] (Sicht)
+       [dbo].[viCity] (Sicht)
+       [dbo].[viCompany] (Sicht)
+       [dbo].[viDepartment] (Sicht)
+       [dbo].[spCreateOrUpdateCompany] (Prozedur)
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+       [dbo].[viDepartment2Address] (Sicht)
+       [dbo].[viEmployee2Department] (Sicht)
+       [dbo].[viEmploymentTime] (Sicht)
+       [dbo].[viManager] (Sicht)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Manager] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+
+Der Typ für Spalte "EmploymentEnd" in Tabelle "[dbo].[EmploymentTime]" ist derzeit " DATETIME2 (7) NULL", wird jedoch in " DATE NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Der Typ für Spalte "EmploymentStart" in Tabelle "[dbo].[EmploymentTime]" ist derzeit " DATETIME2 (7) NOT NULL", wird jedoch in " DATE NOT NULL" geändert. Es könnte zu einem Datenverlust kommen.
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+

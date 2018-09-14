@@ -1,0 +1,56 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[Department2Address]
+       [dbo].[Employee2Department]
+       [dbo].[Manager2Department]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[dbo].[Department2Address].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Employee].[EmploymentTimeId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Employee2Department].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Manager2Department].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Department2Address] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Employee2Department] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Manager2Department] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Manager2Department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Manager2Department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+     Tabellenneuerstellung
+       [dbo].[Department2Address] (Tabelle)
+       [dbo].[Employee2Department] (Tabelle)
+       [dbo].[Manager2Department] (Tabelle)
+     Ändern
+       [dbo].[Employee] (Tabelle)
+       [dbo].[viEmployee] (Sicht)
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Manager2Department] (Fremdschlüssel)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Department2Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee2Department] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Manager2Department] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Manager2Department] (Fremdschlüssel)
+
+Die Spalte "[dbo].[Department2Address].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Employee].[EmploymentTimeId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Employee2Department].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Manager2Department].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [dbo].[Department2Address] möglicherweise zu Laufzeitfehlern in [dbo].[viDepartment2Address].
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [dbo].[Employee2Department] möglicherweise zu Laufzeitfehlern in [dbo].[viEmployee2Department].
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+

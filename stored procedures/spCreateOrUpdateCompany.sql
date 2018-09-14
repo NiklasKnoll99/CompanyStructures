@@ -1,40 +1,28 @@
 ﻿CREATE PROCEDURE spCreateOrUpdateCompany
 
-	@id INT = NULL,
-	@companyName NVARCHAR(256)
+	@Id INT = NULL,
+	@CompanyName NVARCHAR(256)
 
 AS
 
 BEGIN
-	IF (((SELECT Company.Id FROM Company WHERE Company.Id = @id) IS NULL) OR (@id IS NULL))
-	BEGIN
-		IF ((SELECT Count(Company.Id) FROM Company WHERE Company.CompanyName = @companyName) = 0)
-		BEGIN
-			INSERT INTO Company(Company.CompanyName)
-				VALUES(@companyName)
-			RETURN @@IDENTITY
-		END
+	DECLARE @RetVal INT
 
-		ELSE
-		BEGIN
-			RETURN -1
-		END
+	IF (((SELECT Id FROM Company WHERE Id = @Id) IS NULL) OR (@Id IS NULL))
+	BEGIN
+		INSERT INTO Company(CompanyName)
+			VALUES(@CompanyName)
+
+		SET @RetVal = @@IDENTITY
+		RETURN @RetVal
 	END
 
 	ELSE
 	BEGIN
-		IF ((SELECT Count(Company.Id) FROM Company WHERE Company.CompanyName = @companyName) = 0)
-		BEGIN
-			UPDATE Company
-				SET Company.CompanyName = @companyName,
-					Company.CreationTime = GetDate()
-				WHERE Company.Id = @id
-			RETURN @id
-		END
-
-		ELSE
-		BEGIN
-			RETURN -2
-		END
+		UPDATE Company
+			SET CompanyName = @CompanyName
+			WHERE Id = @Id
+		SET @RetVal = @Id
+		RETURN @RetVal
 	END
 END

@@ -1,0 +1,30 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[City] (Fremdschlüssel)
+     Ändern
+       [dbo].[Address] (Tabelle)
+       [dbo].[City] (Tabelle)
+       [dbo].[EmploymentTime] (Tabelle)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[City] (Fremdschlüssel)
+     Aktualisieren
+       [dbo].[viAddress] (Sicht)
+       [dbo].[viCompany] (Sicht)
+       [dbo].[viCity] (Sicht)
+
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+

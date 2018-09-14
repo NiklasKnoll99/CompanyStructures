@@ -67,21 +67,18 @@
     <Build Include="Table\Employee.sql" />
     <Build Include="Table\Department.sql" />
     <Build Include="Table\Department2Address.sql" />
-    <Build Include="Table\Manager.sql" />
+    <Build Include="table\Manager2Department.sql" />
     <Build Include="Table\EmploymentTime.sql" />
     <Build Include="table\Employee2Department.sql" />
     <Build Include="table\City.sql" />
     <Build Include="table\Province.sql" />
-    <Build Include="view\viAddress.sql" />
-    <Build Include="view\viCity.sql" />
     <Build Include="view\viCompany.sql" />
-    <Build Include="view\viDepartment.sql" />
     <Build Include="view\viEmployee.sql" />
-    <Build Include="view\viEmploymentTime.sql" />
-    <Build Include="view\viProvince.sql" />
-    <Build Include="view\viManager.sql" />
-    <Build Include="view\viDepartment2Address.sql" />
-    <Build Include="view\viEmployee2Department.sql" />
     <Build Include="stored procedures\spCreateOrUpdateCompany.sql" />
+    <Build Include="stored procedures\spCreateOrUpdateEmployee.sql" />
+    <Build Include="stored procedures\spCreateOrUpdateDepartment.sql" />
+    <Build Include="view\viDepartment.sql" />
+    <Build Include="stored procedures\spDeleteCompany.sql" />
+    <Build Include="stored procedures\spDeleteDepartment.sql" />
   </ItemGroup>
 </Project>

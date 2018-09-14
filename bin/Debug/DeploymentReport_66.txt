@@ -1,0 +1,27 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Ändern
+       [dbo].[Address] (Tabelle)
+       [dbo].[City] (Tabelle)
+       [dbo].[Employee] (Tabelle)
+       [dbo].[Province] (Tabelle)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [dbo].[viAddress] (Sicht)
+       [dbo].[viCompany] (Sicht)
+       [dbo].[viEmployee] (Sicht)
+       [dbo].[viCity] (Sicht)
+       [dbo].[spCreateOrUpdateEmployee] (Prozedur)
+
+Die Projekt- und Zieldatenbanken weisen unterschiedliche Sortierungseinstellungen auf. Möglicherweise treten Bereitstellungsfehler auf.
+
